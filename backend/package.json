@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <img src=\"https://res.cloudinary.com/dlzorrr82/image/upload/v1757116924/image-proxy_m5crzk.jpg\" alt=\"Logo\" height=\"200\">\r   <h2>\r     agardeX Capstone\r   </h2>\r </div>",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --watch ./src/server.js",
+    "prod": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jala-university1/cohort-3/ES.CSNT-245.GA.T2.25.M2/SB/angel.ortega/capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jala-university1/cohort-3/ES.CSNT-245.GA.T2.25.M2/SB/angel.ortega/capstone/issues"
+  },
+  "homepage": "https://gitlab.com/jala-university1/cohort-3/ES.CSNT-245.GA.T2.25.M2/SB/angel.ortega/capstone#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.1",
+    "sweetalert2": "^11.23.0",
+    "uuid": "^12.0.0",
+    "ws": "^8.18.0"
+  }
+}
